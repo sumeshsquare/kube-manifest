@@ -33,6 +33,6 @@ spec:
   type: ClusterIP
   ports:
   - port: 8082
-#     targetPort: 5000
+    targetPort: 5000
   selector:
     app: flaskdemo
